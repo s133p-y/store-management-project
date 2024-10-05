@@ -27,12 +27,21 @@ this.price = 9.99;
    
   }
   //Accessor and Mutator Methods
+  /* 
+  * Returns the value assigned to type
+  */
 public String getType(){
   return type;
 }
+  /* 
+  * Returns the value assigned to price
+  */
   public double getPrice(){
   return price;
 }
+  /* 
+  * Allows the values to be able to set to a new value
+  */
   public void setType(String newType){
     this.type = newType;
   }
